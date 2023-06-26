@@ -14,6 +14,9 @@
 - Modules no NodeJS
 - File System
 
+## Aula 03
+- Correção do exercício
+
 ---
 ### Links Úteis
 
