@@ -20,6 +20,14 @@
 - NPM / Node Modules
 - Git Ignore
 
+## Aula 04
+- NVM
+- Express
+- Diretório static / public
+- Rotas com GET, POST
+- CURL
+- Rotas com parametros dinâmicos
+
 ---
 ### Links Úteis
 
@@ -28,4 +36,7 @@
 * [Status HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 * [SEMVER - Semantic Version 2.0.0](https://semver.org/lang/pt-BR/)
 * [The Developer Roadmap](https://roadmap.sh/)
+
+* [Socket.IO - Realtime com NodeJS](https://socket.io/)
+* [Rocketseat - NextJS](https://www.youtube.com/watch?v=2LS6rP3ykJk)
 
