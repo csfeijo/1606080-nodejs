@@ -34,6 +34,12 @@
 - Thunder Client
 - Body Parser
 
+## Aula 06
+- Correção do exercício
+- Configuração de API
+- ESLint
+- Configuração do Workspace do VSCode
+
 ---
 ### Links Úteis
 
