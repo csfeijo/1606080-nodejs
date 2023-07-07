@@ -47,6 +47,12 @@
 - Executando a primeira query
 - Tratando erros de conexão
 
+## Aula 08
+- Correção parcial do exercício (method POST)
+- HTTP status na API
+- Validação de parametros para evitar SQL Injection
+- dotenv
+
 ---
 ### Links Úteis
 
@@ -67,3 +73,7 @@
 * [Rocketseat - NextJS](https://www.youtube.com/watch?v=2LS6rP3ykJk)
 * [Erick Wendel](https://www.instagram.com/erickwendel_/)
 * [One Bit Code](https://www.instagram.com/onebitcode/)
+
+
+#### Issues
+* [Auto Increment quando ocorre um Duplicated Entry](https://mariadb.com/kb/en/auto_increment-handling-in-innodb/#consecutive-lock-mode)
