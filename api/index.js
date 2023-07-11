@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   res.send('Welcome to API')
 })
 
-app.listen(80, () => {
+app.listen(3033, () => {
   console.log('Servidor sendo executado...')
 })
 
