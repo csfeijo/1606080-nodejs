@@ -53,6 +53,13 @@
 - Validação de parametros para evitar SQL Injection
 - dotenv
 
+## Aula 09
+- Rotas com PATCH
+- Rotas com DELETE
+- Deploy na Vercel
+- DB4FREE
+- Overview Postman
+
 ---
 ### Links Úteis
 
@@ -74,6 +81,10 @@
 * [Erick Wendel](https://www.instagram.com/erickwendel_/)
 * [One Bit Code](https://www.instagram.com/onebitcode/)
 
+
+##### Banco de Dados Free
+* [DB4FREE](https://db4free.net)
+* [Infinity Free](https://infinityfree.com)
 
 #### Issues
 * [Auto Increment quando ocorre um Duplicated Entry](https://mariadb.com/kb/en/auto_increment-handling-in-innodb/#consecutive-lock-mode)
