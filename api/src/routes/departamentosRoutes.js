@@ -1,14 +1,56 @@
 import con from '../services/connection.js'
 
 const departamentosRoutes = (app) => {
-
   const base = '/api'
 
+  /**
+   * @swagger
+   * 
+   * components:
+   *  schemas:
+   *    Departamentos:
+   *      type: object
+   *      required:
+   *        - nome
+   *        - sigla
+   */
+
+
+
+
+  /**
+   * @swagger
+   * 
+   * /api/departamentos:
+   *  get:
+   *    description: Lista todos os departamentos
+   *    produces:
+   *      - application/json
+   *    responses:
+   *      200:
+   *        description: O servidor respondeu com sucesso
+   */
   app.get(`${base}/departamentos`, async (req, res) => {
     const [rows] = await con.query('SELECT * FROM DEPARTAMENTOS')
     res.json(rows)
   })
 
+  /**
+   * @swagger
+   * 
+   * /api/departamentos:
+   *  post:
+   *    description: Cadastra um departamento
+   *    produces:
+   *      - application/json
+   *    responses:
+   *      201:
+   *        description: Registro inserido com sucesso
+   *      400:
+   *        description: Parametros insuficientes 
+   *      500:
+   *        description: Erro interno
+   */
   app.post(`${base}/departamentos`, async (req, res) => {
     const { nome, sigla } = req.body
 
