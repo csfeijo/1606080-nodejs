@@ -60,6 +60,11 @@
 - DB4FREE
 - Overview Postman
 
+## Aula 10
+- Postman Collections and Variables
+- Swagger JSDoc
+- Swagger UI
+
 ---
 ### Links Úteis
 
@@ -88,3 +93,7 @@
 
 #### Issues
 * [Auto Increment quando ocorre um Duplicated Entry](https://mariadb.com/kb/en/auto_increment-handling-in-innodb/#consecutive-lock-mode)
+
+#### Swagger
+* [Swagger UI da PetStore](https://petstore.swagger.io/?displayOperationId=1)
+* [Swagger Editor PetStore](https://editor.swagger.io/)

@@ -13,6 +13,16 @@ const departamentosRoutes = (app) => {
    *      required:
    *        - nome
    *        - sigla
+   *      properties:
+   *        nome:
+   *          type: string
+   *          description: nome do departamento
+   *        sigla:
+   *          type: string
+   *          description: sigla do departamento
+   *      example:
+   *        nome: ex_depto
+   *        sigla: exd
    */
 
 
@@ -43,6 +53,12 @@ const departamentosRoutes = (app) => {
    *    description: Cadastra um departamento
    *    produces:
    *      - application/json
+   *    requestBody:
+   *      required: true
+   *      content:
+   *        application/json:
+   *          schema:
+   *            $ref: '#/components/schemas/Departamentos'
    *    responses:
    *      201:
    *        description: Registro inserido com sucesso
