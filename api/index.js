@@ -1,4 +1,5 @@
 import express from 'express'
+import cors from 'cors'
 import bodyParser from 'body-parser'
 import swaggerUi from 'swagger-ui-express'
 import swaggerJsdoc from 'swagger-jsdoc'
@@ -7,6 +8,7 @@ import departamentosRoutes from './src/routes/departamentosRoutes.js'
 const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded( { extended: true } ))
+app.use(cors())
 
 const swaggerOptions = {
   definition: {
