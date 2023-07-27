@@ -82,7 +82,7 @@ const departamentosRoutes = (app) => {
     } catch(e) {
       console.error(`[ERROR] ${e}`)
       if (e.code === 'ER_DUP_ENTRY') {
-        res.status(409).json({ message: e.message })
+        res.status(409).json({ message: e.message, exception: e })
         return
       }
       // Se não tiver encontrado o erro, foi algo critico
