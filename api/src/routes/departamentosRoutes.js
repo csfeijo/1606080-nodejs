@@ -45,6 +45,20 @@ const departamentosRoutes = (app) => {
     res.json(rows)
   })
 
+  app.get(`${base}/departamentos/:id_departamento`, async (req, res) => {
+    const { id_departamento } = req.params
+
+    const query = 'SELECT * FROM DEPARTAMENTOS WHERE id_departamento = ?'
+    const [result] = await con.query(query, [id_departamento])
+
+    if (result.length === 0) {
+      res.status(404).json(result)
+      return
+    }
+
+    res.json(result)
+  })
+
   /**
    * @swagger
    * 
